@@ -1,4 +1,41 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/fonts.css');
 
-@import url('../blocks/page/page.css')
+@import url('../blocks/page/page.css');
+@import url('../blocks/container/container.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__languages-links-list/header__languages-links-list.css');
+@import url('../blocks/header/__languages-links-list-item/header___languages-links-list-item.css');
+@import url('../blocks/header/__language-link/header__language-link.css');
+@import url('../blocks/header/__language-link/_checked/header__language-link_checked.css');
+
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__figure/lead__figure.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__title/lead__title.css');
+
+/* @import url('../blocks'); */
+
+/* body {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+
+div {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+
+header {
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
+
+* {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}

@@ -1,0 +1,5 @@
+.header__logo {
+  width: 176px;
+  height: 52px;
+  vertical-align: middle; /* Для предотвращения микро-отступа снизу у <img> */ 
+}

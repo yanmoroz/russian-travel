@@ -1,0 +1,7 @@
+.header__languages-links-list-item {
+  margin: 0; 
+}
+
+.header__languages-links-list-item:first-child {
+  margin-right: 18px;
+}

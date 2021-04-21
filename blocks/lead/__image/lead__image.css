@@ -1,0 +1,4 @@
+.lead__image {
+  width: 100%;
+  vertical-align: middle; /* Для предотвращения микро-отступа снизу у <img> */ 
+}
