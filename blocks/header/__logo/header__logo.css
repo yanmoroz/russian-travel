@@ -1,5 +1,13 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
-  vertical-align: middle; /* Для предотвращения микро-отступа снизу у <img> */ 
+  max-width: 176px;
+  max-height: 52px;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+    max-height: 42px;
+  }
 }
