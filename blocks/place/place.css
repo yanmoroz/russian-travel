@@ -6,3 +6,14 @@
   "title website"
   "image text";
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "title"
+    "website"
+    "image"
+    "text";
+  }
+}

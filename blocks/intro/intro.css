@@ -18,11 +18,13 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .intro {
     margin: calc(3 / 56 * 100vw + (88px - 3 * 768px / 56)) calc(1 / 56 * 100vw + (16px - 320px / 56)) 0;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     margin: calc(64 / 320 * 100vw) calc(1 / 20 * 100vw) 0;
+    max-width: 288px;
   }
 }
