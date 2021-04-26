@@ -1,4 +1,28 @@
 .intro {
-  max-width: 984px;
-  margin: 92px auto 0;
+  max-width: 690px;
+  margin: 92px 148px 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .intro {
+    margin: 92px 0 0 calc(100 / 256 * 100vw - 352px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    margin: calc(1 / 64 * 100vw + 76px) 0 0 calc(24 / 256 * 100vw - 48px);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .intro {
+    margin: calc(3 / 56 * 100vw + (88px - 3 * 768px / 56)) calc(1 / 56 * 100vw + (16px - 320px / 56)) 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    margin: calc(64 / 320 * 100vw) calc(1 / 20 * 100vw) 0;
+  }
 }

@@ -5,3 +5,12 @@
   margin: 40px 0 33px 0;
   max-width: 690px;
 }
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    font-size: calc(16 / 320 * 100vw);
+    line-height: calc(26 / 320 * 100vw);
+    margin-top: calc(40 / 320 * 100vw);
+    margin-bottom: calc(33 / 320 * 100vw);
+  }
+}
