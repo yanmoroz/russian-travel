@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .lead {
-    margin: 48px calc(148px + ((100 * 100vw / 256) - 500px)) 0; /* f(x) = 148 + (100x / 256 - 500) */
+    margin: calc(1 / 32 * 100vw + 16px) calc(148px + ((100 * 100vw / 256) - 500px)) 0;
   }
 }
 
@@ -25,6 +25,6 @@
 
 @media screen and (max-width: 320px) {
   .lead {
-    margin: 48px 0 0;
+    margin: calc(48 / 320 * 100vw) 0 0;
   }
 }
