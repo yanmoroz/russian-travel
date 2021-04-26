@@ -7,3 +7,11 @@
   box-shadow:
     inset 0 -2px #FFF
 }
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-size: calc(18 * 100vw / 320);
+    line-height: calc(22 * 100vw / 320);
+    margin: auto calc(100vw / 20);
+  }
+}
