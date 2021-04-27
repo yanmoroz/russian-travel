@@ -6,3 +6,20 @@
   max-width: 560px;
   margin: 0 0 32px 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .cover__title {
+    font-size: calc(40 * 100vw / 448 + (32px - 40px * 320 / 448));
+    line-height: calc(41 * 100vw / 448 + (35px - 41px * 320 / 448));
+    margin: 0 0 calc(16 * 100vw / 448 + (16px - 16px * 320 / 448)) 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: calc(32 * 100vw / 320);
+    line-height: calc(35 * 100vw / 320);
+    margin: 0 0 calc(16 * 100vw / 448) 0;
+    max-width: 288px;
+  }
+}
