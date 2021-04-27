@@ -1,21 +1,23 @@
 .cover {
-  max-width: 1184px;
-  height: calc(5 * 100vw / 8); /* Отношение сторон обложки всегда составляет 5 / 8 */
+  position: relative;
+  display: flex;
+  margin: 0 auto;
   margin: 92px auto;
-
-  background-image: url('../../images/miscellaneous/cover-trains.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  max-width: calc(100% - 48*2px);
+  height: calc(100vw * 5 / 8); /* Отношение сторон картинки всегда 5 к 8 */
+  max-height: 740px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    margin: 89 auto;
+    max-width: 100%;
+    margin: 89px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    margin: 65 auto;
+    max-width: 100%;
+    margin: 88px 0;
   }
 }
