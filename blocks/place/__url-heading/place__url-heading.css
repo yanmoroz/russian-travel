@@ -6,11 +6,3 @@
   color: #AAAAAA;
   margin: 0 0 5px 0;
 }
-
-@media screen and (max-width: 375px) {
-  .place__url-heading {
-    font-size: calc(12 * 100vw / 320);
-    line-height: calc(20 * 100vw / 320);
-    margin: auto calc(100vw / 20);
-  }
-}
