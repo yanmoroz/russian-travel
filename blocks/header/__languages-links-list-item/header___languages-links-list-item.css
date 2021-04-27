@@ -1,13 +1,7 @@
 .header__languages-links-list-item {
-  margin: 0 0px 6px 0px;
+  margin: 0 0 6px 0;
 }
 
 .header__languages-links-list-item:first-child {
   margin-right: 18px;
-}
-
-@media screen and (max-width: 320px) {
-  .header__languages-links-list-item:first-child {
-    margin-right: calc(18 / 320 * 100vw);
-  }
 }
