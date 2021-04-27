@@ -13,14 +13,14 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   .place__title {
     font-size: calc(10 * 100vw / 448 + (32px - 320px * 10 / 448));
     line-height: calc(11 * 100vw / 448 + (35px - 11 * 320px / 448));
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .place__title {
     font-size: calc(100vw / 10);
     line-height: calc(35 * 100vw / 320);

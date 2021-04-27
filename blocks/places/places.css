@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .places {
     margin: calc(100vw / 5) 0 0;
   }
