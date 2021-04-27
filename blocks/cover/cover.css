@@ -1,42 +1,21 @@
 .cover {
   max-width: 1184px;
-  height: 740px;
-  margin: 92px auto 92px;
+  height: calc(5 * 100vw / 8); /* Отношение сторон обложки всегда составляет 5 / 8 */
+  margin: 92px auto;
 
   background-image: url('../../images/miscellaneous/cover-trains.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    max-width: calc(160 * 100vw / 256 + 384px);
-    height: calc(100 * 100vw / 256 + 240px);
+    margin: 89 auto;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .cover {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .cover {
-    height: calc(160 * 100vw / 256);
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .cover {
-    height: calc(160 * 100vw / 256);
-    margin: calc(28 * 100vw / 448 + (64px - 28px * 320 / 448)) auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    height: calc(160 * 100vw / 256);
-    margin: calc(64 * 100vw / 320) auto;
+    margin: 65 auto;
   }
 }
