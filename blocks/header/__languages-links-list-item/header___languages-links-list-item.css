@@ -1,7 +1,7 @@
 .header__languages-links-list-item {
-  margin: 0 0 6px 0;
+  margin: 0 18px 6px 0;
 }
 
-.header__languages-links-list-item:first-child {
-  margin-right: 18px;
+.header__languages-links-list-item:last-child {
+  margin-right: 0;
 }

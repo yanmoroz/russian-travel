@@ -1,21 +1,11 @@
 .cover {
   position: relative;
   display: flex;
-  margin: 0 auto;
   margin: 92px auto;
   max-width: calc(100% - 48*2px);
-  height: calc(100vw * 5 / 8); /* Отношение сторон картинки всегда 5 к 8 */
-  max-height: 740px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover {
-    max-width: 100%;
-    margin: 89px 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .cover {
     max-width: 100%;
     margin: 88px 0;
